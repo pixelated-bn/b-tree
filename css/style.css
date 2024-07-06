@@ -1,0 +1,89 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#btnsubmit{
+  background-color: #B99B67;
+  color: #ffffff;
+  border-color: none;
+  width: 50%;
+  height: 80px;
+  border-radius: 0%;
+  font-size: larger;
+}
+
+#btnsubmit:hover{
+  background-color: #20476A;
+  color: #ffffff;
+  border-color: none;
+}
+
+#linktext{
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#linktext:hover{
+  color: #B99B67;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 90%; /* Optional: full width */
+}
+
+.custom-input {
+  border: none;
+  outline: none;
+  width: 90%; /* Optional: full width */
+  padding: 0 0 5px 0; /* Add padding to the bottom to account for the pseudo-element */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.input-wrapper:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px; /* Default bottom border height */
+  background-color: #20476A;
+  transition: height 0.08s; /* Smooth transition */
+}
+
+.input-wrapper:hover:before {
+  height: 3px; /* Thicker bottom border on hover */
+}
+
+
+.textarea-wrapper {
+  position: relative;
+  width: 100%; /* Optional: full width */
+}
+
+.custom-textarea {
+  border: none;
+  outline: none;
+  resize: none; /* Optional: prevent resizing */
+  width: 100%; /* Optional: full width */
+  padding: 0 0 5px 0; /* Add padding to the bottom to account for the pseudo-element */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.textarea-wrapper:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px; /* Default bottom border height */
+  background-color: #20476A;
+  transition: height 0.08s; /* Smooth transition */
+}
+
+.textarea-wrapper:hover:before {
+  height: 3px; /* Thicker bottom border on hover */
+}
