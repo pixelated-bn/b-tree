@@ -32,13 +32,15 @@
 
 .input-wrapper {
   position: relative;
-  width: 90%; /* Optional: full width */
+  width: 100%; /* Optional: full width */
+  height: auto;
 }
 
 .custom-input {
   border: none;
   outline: none;
-  width: 90%; /* Optional: full width */
+  width: 100%; /* Optional: full width */
+  height: 50px;
   padding: 0 0 5px 0; /* Add padding to the bottom to account for the pseudo-element */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
@@ -61,7 +63,7 @@
 
 .textarea-wrapper {
   position: relative;
-  width: 100%; /* Optional: full width */
+  width: 80%; /* Optional: full width */
 }
 
 .custom-textarea {
